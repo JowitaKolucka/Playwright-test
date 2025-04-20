@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "format": "npx prettier --write .",
-    "lint": "npx eslint . --max-warnings 0",
+    "format:check": "npx prettier . --check '!**.ts",
+    "lint": "npx eslint . --ext .ts --max-warnings 0",
     "test": "npx playwright test",
     "test:headed": "npm run test -- --headed",
     "test:ui": "npm run test -- --ui",
