@@ -3,7 +3,7 @@ import { LoginPage } from '../../src/pages/login.page';
 import { loginData } from '../../test-data/login.data';
 import { expect, test } from '@playwright/test';
 
-test.describe('User login to Automation Exercise Page', () => {
+test.describe('User login to Automation Exercise Page @login', () => {
   let loginPage: LoginPage;
 
   test.beforeEach(async ({ page }) => {
