@@ -1,6 +1,6 @@
-import { CartPage } from '../src/pages/cart.page';
-import { HomePage } from '../src/pages/home.page';
-import { ProductsPage } from '../src/pages/products.page';
+import { CartPage } from '../../src/pages/cart.page';
+import { HomePage } from '../../src/pages/home.page';
+import { ProductsPage } from '../../src/pages/products.page';
 import { expect, test } from '@playwright/test';
 
 test.describe('Verify service main pages', () => {
